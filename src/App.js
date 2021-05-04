@@ -3,11 +3,9 @@ import {Typography,Button,AppBar,Card,CardActions,CardContent,CardMedia,CssBasel
 import {PhotoCamera} from '@material-ui/icons';
 import useStyle from './styles';
 import Data  from './Data'; 
-import {Link} from 'react-router-dom';
 
 const App = () => {
     const classes=useStyle();
-    console.log(Data);
     return (
         <>
         <CssBaseline/>
